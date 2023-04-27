@@ -33,6 +33,9 @@ h2{
 #navhl:hover{
   background-color: #86a2b5;
 }
+#left{
+  float: left;
+}
 nav{
   list-style-type: none;
   background-color: #98b7cc;

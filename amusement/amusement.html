@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="amusement.css">
  <link rel="icon" type="image/x-icon" href="poroland logo-01.png">
     </head>
+    <button onclick = "topFunction()" id ="topBtn"> Top </button>
     <div id = "header">
       <p>  &nbsp; </p>
       <center>
@@ -218,4 +219,19 @@ function showSlides(n) {
 function submited(email){
                 alert("You are now connected with the team with the email address", + email);
             }
+  
+  window.onscroll = function() {hideFunction()};
+function hideFunction(){
+  if(document.body.scrollTop > 90 || document.documentElement.scrollTop > 90)
+    document.getElementById("topBtn").style.display="block";
+  else{
+    document.getElementById("topBtn").style.display="none";
+  }
+}
+
+function topFunction(){
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+  
+}
 </script>

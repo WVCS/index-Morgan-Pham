@@ -343,12 +343,9 @@ footer{
 }
 #entireDiv3 {
   position: fixed;
-  left: 50;
+  left: 0;
   padding: 0px;
   top: 0;
-}
-#icon{
-  width: 100%;
 }
 
 @media only screen and (max-width: 1024px){

@@ -336,17 +336,7 @@ footer{
   position: fixed;
   right: 0;
 }
-#entireDiv2 {
-  position: fixed;
-  right: 0;
-  padding: 0px;
-}
-#entireDiv3 {
-  position: fixed;
-  left: 0;
-  padding-bottom: 2px;
-  top: 0;
-}
+
 
 @media only screen and (max-width: 1024px){
   nav{

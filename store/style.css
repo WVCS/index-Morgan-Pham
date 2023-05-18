@@ -336,6 +336,11 @@ footer{
   position: fixed;
   right: 0;
 }
+#entireDiv2 {
+  position: fixed;
+  right: 0;
+  padding: 0px;
+}
 
 
 @media only screen and (max-width: 1024px){

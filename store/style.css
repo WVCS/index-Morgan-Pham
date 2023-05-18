@@ -339,12 +339,12 @@ footer{
 #entireDiv2 {
   position: fixed;
   right: 0;
-  padding: 20px;
+  padding: 10px;
 }
 #entireDiv3 {
   position: fixed;
   left: 0;
-  padding-bottom: 3px;
+  padding-bottom: 2px;
   padding-right: 0px;
   top: 0;
 }

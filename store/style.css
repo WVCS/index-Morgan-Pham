@@ -53,7 +53,7 @@ a.subtitle{
   font-size: 17px;
   font-weight: 550;
   text-align: center;
-  padding: 20px
+  padding: 20px;
 }
 a.subtitle:hover{
   color: #a3a3a3;
@@ -339,13 +339,12 @@ footer{
 #entireDiv2 {
   position: fixed;
   right: 0;
-  padding: 10px;
+  padding: 0px;
 }
 #entireDiv3 {
   position: fixed;
   left: 0;
   padding-bottom: 2px;
-  padding-right: 0px;
   top: 0;
 }
 

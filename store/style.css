@@ -53,7 +53,7 @@ a.subtitle{
   font-size: 17px;
   font-weight: 550;
   text-align: center;
-  padding: 0px;
+  padding: 20px
 }
 a.subtitle:hover{
   color: #a3a3a3;

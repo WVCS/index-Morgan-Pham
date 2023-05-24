@@ -37,13 +37,7 @@
 </html>
    
    <style>
-    h1 {
-  text-align: center;
-  color: gold;
-  font-style: italic;
-  font-style: bold;
-  text-shadow: 1px 2px 4px red;
-}
+
 body{
   background-color: #BBB193;
 }
@@ -53,25 +47,390 @@ img{
 body:hover{
 background-color: ##F6F0ED;
 }
-    nav{
+ 
+    
+   </style>
+
+table, tr, th, td{
+  border: solid black 1px;
+  color: #6D696A; 
+}
+img:hover{
+  background-color: #0A2342;
+}
+ul{
   list-style-type: none;
+}
+table{
+  border-collapse: collapse;
+   width: 50%;
+}
+tr:hover{
+  background-color: #89CFF0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background-image: url(https://wallpapers.com/images/hd/grey-gradient-background-1920-x-1080-nhkxn5fc39z7npkn.jpg);
+}
+.fadenav {
+  color: #fff;
+  transition: background-color 1s;
+}
+.fadenav:hover {
+  background-color: black;
+}
+.fadenav:focus,
+.fadenav:active {
+  background-color: black;
+  transition: none;
+}
+#title{
+  list-style-type: none;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.001));
+  width: 100%;
   position: fixed;
-  widthL 100w;
-  background-color: white;
-  left: 0;
   top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: 100;
+  display: inline-block;
+  text-align: center;
+} 
+.navli{
+  display: inline-block;
+  text-align: center;
+  padding: 3px 0px;
+  margin: auto;
+}
+.navli2{
+  display: inline-block;
+  padding: 3px 0px;
+  margin: auto;
+  left: 0;
 }
 a{
   text-decoration: none;
+  color: white;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;src:url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlOevWjMY.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px;
+}
+a.subtitle{
+  text-decoration: none;
+  color: white;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;src:url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlOevWjMY.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-size: 17px;
+  font-weight: 550;
+  text-align: center;
+  padding: 20px;
+}
+a.subtitle:hover{
+  color: #a3a3a3;
+}
+a.brandtext{
+  text-decoration: none;
+  color: white;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;src:url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlOevWjMY.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px;
+}
+#cookies-popup {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #212121;
+  color: #f5f1e9;
+  padding: 15px;
+  
+}
+.boxtext{
+  color: white;
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size 40px;
+  white-space: pre-wrap;
+  src: url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlOevWjMY.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+.boxtext2{
+  color: #212121;
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size 40px;
+  white-space: pre-wrap;
+  src: url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlOevWjMY.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+.whitebox{
+  background-color: #212121;
+  width: fit-content;
+  padding: 15px 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.whitebox2{
+  background-color: #dedede;
+  width: fit-content;
+  padding: 15px 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.whitebox2:hover{
+  background-color: #a3a3a3;
+}
+.whitebox:hover{
+  background-color : #2e2e2e;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.overlay:hover{
+  height: 100%;
+}
+button{
   color: black;
+  padding: 1%;
+  cursor: pointer;
 }
-li:hover{
-  background-color: gray;
+.teamheader{
+  background-color: #212121;
+  padding: 15px;
+  margin: auto;
 }
-li{
+.subheader{
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;src:url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlOevWjMY.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+.smalltext{
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;src:url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlOevWjMY.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  text-align: center;
+}
+.teamheader2{
+  background-color: white;
+  padding: 15px;
+  margin: auto;
+}
+.subheader2{
+  color: #212121;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;src:url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlOevWjMY.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+ .product-grid {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.product-item {
+  flex-basis: 30%; 
+  margin-bottom: 2em;
+  background-color: #212121;
+  padding: 1em;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+}
+footer{
+    background: #212121;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+.footer{
   display: inline;
-  float: right;
-  padding: 10px;
+  text-align: center;
+  height: 60px;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
-    
-   </style>
+.subtitle2{
+  text-decoration: none;
+  color: white;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;src:url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlOevWjMY.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  padding: 10px;
+  display: inline; 
+}
+.subtitle2:hover{
+  color: #a3a3a3;
+}
+#topBtn{
+  position: fixed;
+  bottom: 2%;
+  right: 1%;
+  font-size: 30px;
+  background-color: white;
+  padding: 10px;
+  display: none;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;src:url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlOevWjMY.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+#topBtn:hover{
+  background-color: #dedede;
+}
+
+
+* {box-sizing:border-box}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 70%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: black;
+}
+
+/* Caption text */
+.text {
+  color: white;
+  font-size: 10vh;
+  position: absolute;
+  bottom: 45vh;
+  width: 100%;
+  text-align: center;
+  font-style: normal;
+  font-family: 'Source Code Pro'; src:url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_SiYsKILxRpg3hIP6sJ7fM7PqlOevWjMY.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  font-weight: 350;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.0s;
+  animation-timing-function: linear;
+}
+
+@keyframes fade {
+   from {
+    opacity: 0.8;
+    width: 100%;
+  }
+  to {
+    opacity: 1;
+    width: 100%;
+  }
+}
+.autocomplete {
+  cursor: pointer;
+}
+#myInput {
+  width: 90%;
+  background-color: white;
+}
+#entireDiv {
+  position: fixed;
+  right: 0;
+}
+#entireDiv2 {
+  position: fixed;
+  right: 0;
+  padding: 20px;
+}
+#entireDiv3 {
+  position: fixed;
+  left: 0;
+  padding: 0px;
+  top: 5vh;
+}
+#icon{
+  width: 100%;
+}
+
+@media only screen and (max-width: 1024px){
+  nav{
+  display: none;
+}
+}
+ </style>
